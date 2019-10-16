@@ -1,0 +1,35 @@
+@page
+@{
+    ViewData["Title"] = "Motion page";
+}
+
+<article dir="rtl" class="text-right">
+    <table>
+        <tr>
+            <td>مطلق: </td>
+            <td id="absolute"></td>
+        </tr>
+        <tr>
+            <td>آلفا: </td>
+            <td id="alpha"></td>
+        </tr>
+        <tr>
+            <td>بتا: </td>
+            <td id="beta"></td>
+        </tr>
+        <tr>
+            <td>گاما: </td>
+            <td id="gamma"></td>
+        </tr>
+    </table>
+    <div id="toggleFreeze">
+        ثابت نگه دارید: <input type="checkbox" id="freeze" onclick="toggleFreeze()" />
+        <p id="text" style="display:none;">ثابت شد .. !!!!</p>
+    </div>
+    <div>
+        <img id="imgLogo" src="~/imgs/78576473-BE7D-442D-940C-F7CBB55C.gif" />
+    </div>
+    <link href="~/css/motion.css" rel="stylesheet" />
+    <script src="~/lib/@@microsoft/signalr/dist/browser/signalr.js"></script>
+    <script src="~/js/motion.js"></script>
+</article>

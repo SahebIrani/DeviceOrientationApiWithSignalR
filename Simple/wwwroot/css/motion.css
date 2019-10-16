@@ -1,0 +1,28 @@
+
+body {
+    background-color: #003b3e;
+    color: #eee;
+}
+
+table {
+    padding: 10px 50px;
+    font-family:Tahoma;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    max-height: 300px;
+    display: table;
+    margin: 0 auto;
+}
+
+#toggleFreeze {
+    padding: 10px 50px;
+}
+
+#text {
+    padding: 5px 0;
+    color: #44a5f4;
+    font-family: Tahoma;
+}

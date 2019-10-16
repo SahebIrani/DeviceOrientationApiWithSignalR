@@ -1,0 +1,61 @@
+@page
+@{
+    ViewData["Title"] = "Motion page";
+}
+
+<style>
+    body {
+        direction: rtl;
+        background-color: #003b3e;
+        color: #eee;
+    }
+
+    table {
+        padding: 10px 50px;
+    }
+
+    img {
+        max-width: 100%;
+        height: auto;
+        max-height: 300px;
+        display: table;
+        margin: 0 auto;
+    }
+
+    #toggleFreeze {
+        padding: 10px 50px;
+    }
+
+    #text {
+        padding-bottom: 5px;
+        color: #fff;
+    }
+</style>
+
+<table>
+    <tr>
+        <td>اول: </td>
+        <td id="alpha"></td>
+    </tr>
+    <tr>
+        <td>دوم: </td>
+        <td id="beta"></td>
+    </tr>
+    <tr>
+        <td>سوم: </td>
+        <td id="gamma"></td>
+    </tr>
+</table>
+
+<div id="toggleFreeze">
+    ثابت نگه دارید: <input type="checkbox" id="freeze" onclick="toggleFreeze()" />
+    <p id="text" style="display:none;">د</p>
+</div>
+
+<div>
+    <img id="imgLogo" src="~/imgs/67DD8CDD-8A1C-44A1-AAC9-CFBAEB60.gif" />
+</div>
+
+<link href="~/css/motion.css" rel="stylesheet" />
+<script src="~/lib/@@microsoft/signalr/dist/browser/signalr.js"></script>
+<script src="~/js/motion.js"></script>
