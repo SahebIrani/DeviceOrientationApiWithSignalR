@@ -7,3 +7,7 @@ https://deviceorientationapi.jackslater.ir/Motion
 
 ASP.NET Core 2.2
 https://motiondevice.jackslater.ir/Motion
+
+Demo
+![DeviceOrientedWithSignalR.gif](https://motiondevice.jackslater.ir/DeviceOrientedWithSignalR.gif)
+
